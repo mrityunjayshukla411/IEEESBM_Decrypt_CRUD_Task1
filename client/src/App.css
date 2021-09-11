@@ -1,0 +1,9 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  background-image: linear-gradient(to bottom, #0a7d7e, #5c9bab, #9cb9cd, #d3dae7, #ffffff);
+}
+.container {
+  opacity: 0.8;
+}
