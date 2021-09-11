@@ -10,7 +10,6 @@ app.use(express.json());
 app.use(cors())
 
 mongoose.connect(
-  "mongodb+srv://admin_MJS:panduranga10@basiccrud.l3qf8.mongodb.net/crudquestionlist?retryWrites=true&w=majority",
   {
     useNewUrlParser: true,
   }
