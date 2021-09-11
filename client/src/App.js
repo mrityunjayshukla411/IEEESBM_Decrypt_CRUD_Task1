@@ -34,6 +34,7 @@ function App() {
 
   const deleteQuestion = (id) => {
     Axios.delete(`http://localhost:8000/delete/${id}`, {});
+    
   };
 
   return (
@@ -112,7 +113,7 @@ function App() {
           <div className="container" key={key}>
             <br />
             <br />
-            <div class="card bg-info">
+            <div class="card ">
               <div class="card-header">{val.questionName}</div>
               <div class="card-body">
                 <blockquote class="blockquote mb-0">
@@ -121,9 +122,10 @@ function App() {
                     Go to problem
                   </a>
                 </blockquote>
+                <br />
                 <input
                   type="text"
-                  placeholder="New Question Name ..."
+                  placeholder="Update Question Name ..."
                   onChange={(event) => {
                     setNewQuestioname(event.target.value);
                   }}

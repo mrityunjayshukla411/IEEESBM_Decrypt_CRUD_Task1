@@ -7,3 +7,6 @@
 .container {
   opacity: 0.8;
 }
+.card-header{
+  background-color: #46bec0;
+}
